@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About phem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#social">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </header>
+
+        <main>
+            <section id="home" class="home">
+                <img src="assets/profile.jpg" alt="Main Image">
+                <div class="title">
+                    <h1>LIFE SPEAKS, <br> <span>call my</span> <br> NAME</h1>
+                </div>
+            </section>
+
+            <section class="note">
+                <h2>NOTE:</h2>
+                <p>
+                    This is more than a collection of work; it’s a reflection of me—my thoughts, passions, and the way I see the world. "LIFE SPEAKS" represents the energy and inspiration I draw from every moment, every experience, and every interaction. It’s the voice of curiosity, resilience, and growth that shapes who I am.
+
+                    "Call My NAME" is an invitation to connect—not just with my creations but with the person behind them. Every design, every detail, carries a piece of my journey, blending life’s complexities into meaningful expressions.
+                    
+                    Welcome to my story, where creativity meets purpose, and life finds its voice in my work.
+                </p>
+            </section>
+
+            <section id="about" class="quotes">
+                <h2>ALL ABOUT <span class="highlight">phem</span> <br> <span class="description">the details that make me who I am</span></h2>   
+                <div class="quote-card">
+                    <!-- Birthday Section -->
+                    <div class="input-group">
+                        <label for="birthday">Birthday</label>
+                        <div class="birthday-container">
+                            <input type="text" id="birthday-month" name="birthday-month" value="2004" maxlength="4" readonly />
+                            <input type="text" id="birthday-day" name="birthday-day" value="02" maxlength="2" readonly />
+                            <input type="text" id="birthday-year" name="birthday-year" value="23" maxlength="2" readonly />
+                        </div>
+                        <div class="birthday-subtitle">
+                            <span>Year</span>
+                            <span>Month</span>
+                            <span>Day</span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="nationality">nationality</label>
+                        <span class="underline-text">Filipino</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="Residence">residence</label>
+                        <span class="underline-text">Socorro, Oriental Mindoro</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="Gender">gender</label>
+                        <span class="underline-text">Female</span>
+                    </div>
+                </div>
+                
+                <div class="quote-image">
+                    <img src="assets/about.jpg" alt="Secondary Image">
+                </div>
+                <div class="quote-card-personality">
+                    <div class="label">personality</div>
+                    <div class="bar-container">
+                        <div class="bar">
+                            <div class="progress" ></div>
+                        </div>
+                        <div class="personality-subtitle">
+                        <span>introvert</span>
+                        <span>extrovert</span>
+                        </div>
+                    </div>
+                    <div class="label">energy levels</div>
+                    <div class="bar-container">
+                        <div class="bar-energy">
+                            <div class="progress-energy" ></div>
+                        </div>
+                        <div class="personality-subtitle">
+                        <span>morning person</span>
+                        <span>night owl</span>
+                        </div>
+                    </div>
+                    <div class="label">social interaction</div>
+                    <div class="bar-container">
+                        <div class="bar">
+                            <div class="progress-social" ></div>
+                        </div>
+                        <div class="personality-subtitle">
+                        <span>listener</span>
+                        <span>talker</span>
+                        </div>
+                    </div>
+                    <div class="label">pet preference</div>
+                    <div class="bar-container">
+                        <div class="bar-pet">
+                            <div class="progress-pet" ></div>
+                        </div>
+                        <div class="personality-subtitle">
+                        <span>cat lover</span>
+                        <span>dog lover</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-card-like">
+                    <div class="box top-box">
+                        <p>likes</p>
+                        <ul>
+                            <li><i class="fas fa-map-marked-alt"></i> Exploring new places</li>
+                            <li><i class="fas fa-cogs"></i> Trying something new</li>
+                            <li><i class="fas fa-paw"></i> Pet cuddles</li>
+                            <li><i class="fas fa-road"></i> Spontaneous road trips</li>
+                        </ul>
+                    </div> 
+                </div>               
+               <div class="quote-card-name">
+                    <div class="name-text underline">Phoemela Kyle Sebastian</div>
+                    <div class="subtitle">Full Name</div>
+                    <div class="rectangle-container">
+                        <div class="rectangle-part1">
+                            <p>nickname <br> <span> Phem</span></p>
+                        </div>
+                        <div class="rectangle-part2">
+                            <p>MBTI <br> <span> INFJ</span></p>
+                        </div>
+                        <div class="rectangle-part3">
+                            <p>zodiac <br> <span> Pisces</span></p>
+                        </div>
+                    </div>
+                </div>                
+                <div class="quote-card-fav">                     
+                    <div class="box bottom-box">
+                        <p>dislikes</p>
+                        <ul>
+                            <li><i class="fas fa-sun"></i> Overly hot weather</li>
+                            <li><i class="fas fa-pizza-slice"></i> Pineapple on pizza</li>
+                            <li><i class="fas fa-user-secret"></i> Snitch people</li>
+                            <li><i class="fas fa-user-slash"></i> Losing myself</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>FAVORITES</h2>
+                    <div class="music-container">
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5J56mnyMUF67PMIfzm3YL5?utm_source=generator" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div class="music-details">
+                            <h4>Playlist/Song/Artist <span class="favorite-heart">&#10084;</span></h4>
+                            <p><strong>Niki</strong></p>
+                            <p><i>"Just a little too soon,
+                                On the wrong blue moon,"
+                                 -- A love that bloomed but couldn't stay,
+                                Timing lost in skies of gray.
+                                A perfect moment, yet out of place,
+                                The right love, but not the right space.</i></p>
+                        </div>
+                    </div>                    
+                        <div class="food-container">
+                            <img src="assets/fav-flower.jpg" alt="Carbonara" class="food-image">
+                            <div class="food-details">
+                                <h4>Flower <span class="favorite-heart">&#10084;</span></h4>
+                                <p><strong>Carnation</strong></p>
+                                <p><i>A blossom rare, with petals bold,
+                                    In hues of sky, a story told.
+                                    It stands with grace, a silent plea,
+                                    A symbol of love, wild and free.</i></p>
+                            </div>
+                        </div>                        
+                        <div class="food-container">
+                            <img src="assets/fav-drink.jpg" alt="Carbonara" class="food-image">
+                            <div class="food-details">
+                                <h4>Drink <span class="favorite-heart">&#10084;</span></h4>
+                                <p><strong>Matcha Latte</strong></p>
+                                <p><i>Matcha feels like morning dew,
+                                    A calm embrace, a vibrant hue.
+                                    Earthy notes that soothe the soul,
+                                    A gentle lift, it makes me whole.</i></p>
+                            </div>
+                        </div>
+            </section>
+           
+            <section id="social" class="socials">
+                <h2>GET IN TOUCH</h2>                
+                <div class="contact-wrapper">       
+                    <div class="contact-methods">
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt card-icon"></i>
+                            <h3>Phone</h3>
+                            <p>09271674524</p>
+                        </div>
+                        <div class="contact-card">
+                            <a href="https://www.facebook.com/phoemela.sebastian.23" target="_blank" style="text-decoration: none;">
+                                <i class="fab fa-facebook card-icon"></i>
+                                <h3>Facebook</h3>
+                            </a>
+                        </div>
+                        <div class="contact-card">
+                            <a href="mailto:phoemelakylesebastian@gmail.com"target="_blank" style="text-decoration: none;">
+                                <i class="fas fa-envelope card-icon"></i>
+                                <h3>Email</h3>
+                            </a>
+                        </div>                        
+                        <div class="contact-card">
+                            <a href="https://github.com/phoemelakyle"  target="_blank" style="text-decoration: none;">
+                            <i class="fab fa-github card-icon"></i>
+                            <h3>GitHub</h3>
+                            </a>
+                        </div>                        
+                        <div class="contact-card">
+                            <a href="https://www.instagram.com/phoemelakyle/"  target="_blank" style="text-decoration: none;">
+                                <i class='fab fa-instagram card-icon'></i>
+                           <h3>Instagram</h3>  
+                           </a>
+                        </div>                       
+                        <div class="contact-card">
+                            <a href="https://x.com/itzz_phem"  target="_blank" style="text-decoration: none;">
+                            <i class="fab fa-twitter card-icon"></i>
+                            <h3>Twitter</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                            <button type="submit">Send Now</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
